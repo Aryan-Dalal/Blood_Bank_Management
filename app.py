@@ -11,8 +11,8 @@ DB_PATH = os.path.join(os.path.dirname(__file__), 'data', 'bloodbank.db')
 os.makedirs(os.path.join(os.path.dirname(__file__), 'data'), exist_ok=True)
 
 # ---------- EMAIL CONFIG ----------
-SENDER_EMAIL = "sangamevents80@gmail.com"
-SENDER_PASSWORD = "lxlo ndtn jigl qrlr"  # App password
+SENDER_EMAIL = "YOUR_BUISNESS_MAIL_ID"
+SENDER_PASSWORD = "YOUR_PASSWORD"  # App password
 
 def send_email(to_email, subject, body):
     """Send email notification via Gmail SMTP"""
